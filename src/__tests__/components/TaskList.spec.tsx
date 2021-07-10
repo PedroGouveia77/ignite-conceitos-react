@@ -54,7 +54,7 @@ describe('App Page', () => {
         value: 'Desafio ReactJS Ignite'
       }
     });
-    
+
     fireEvent.click(addTaskButton);
 
     const addedFirstTaskTitle = screen.getByText('Desafio ReactJS Ignite');
